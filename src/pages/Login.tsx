@@ -1,12 +1,12 @@
 import { Footer } from "../components/Footer";
+import { LoginForm } from "../components/LoginForm";
 import { Navbar } from "../components/Navbar";
 
 export const Login = () => {
   return (
     <>
       <Navbar />
-      <h1>Login</h1>
-      <h2>proximamente ..</h2>
+      <LoginForm/>
       <Footer />
     </>
   );

@@ -1,12 +1,12 @@
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+import { RegistroForm } from "../components/RegistroForm";
 
 export const Registro = () => {
   return (
     <>
       <Navbar />
-      <h1>Registro</h1>
-      <h2>proximamente ..</h2>
+      <RegistroForm/>
       <Footer />
     </>
   );
